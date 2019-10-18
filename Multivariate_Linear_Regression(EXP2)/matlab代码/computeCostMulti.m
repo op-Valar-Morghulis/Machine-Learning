@@ -1,0 +1,1 @@
+function J = computeCostMulti(x,y,theta)  m = length(y);  J=0;  %初始化  J = sum((x*theta-y).^2)/(2*m);  %计算损失end
